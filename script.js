@@ -7,29 +7,37 @@ function addTask() {
       return;
     }
   
+
     var list = document.getElementById("taskList");
     var li = document.createElement("li");
     var completeButton = document.createElement("button");
     var taskText = document.createElement("span");
   
+
     completeButton.className = "complete-button";
     completeButton.onclick = function() {
       toggleCompleted(taskText);
       toggleCompleted(completeButton);
     };
   
+
     taskText.appendChild(document.createTextNode(task));
   
+
     li.appendChild(completeButton);
     li.appendChild(taskText);
     list.appendChild(li);
   
+    
     input.value = "";
   }
   
+
+
   function toggleCompleted(taskText) {
     taskText.classList.toggle("completed");
   }
+
 
 
   function handleKeyPress(event) {

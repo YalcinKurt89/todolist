@@ -3,6 +3,8 @@ body {
     background-color: #f2f2f2;
   }
   
+
+
   .container {
     max-width: 500px;
     margin: 0 auto;
@@ -11,17 +13,23 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
   
+
+
   h1 {
     color: #333;
     text-align: center;
   }
   
+
+
   .form-container {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
   }
   
+
+
   input[type="text"] {
     flex: 1;
     padding: 8px;
@@ -29,6 +37,8 @@ body {
     border-radius: 4px;
   }
   
+
+
   button.add-button {
     padding: 8px 16px;
     background-color: #4caf50;
@@ -38,6 +48,8 @@ body {
     cursor: pointer;
   }
   
+
+
   ul {
     list-style-type: none;
     padding: 0;
@@ -53,10 +65,14 @@ body {
     border-radius: 4px;
   }
   
+
+
   .completed {
     text-decoration: line-through;
     color: #777;
   }
+  
+
   
   .complete-button {
     width: 20px;
